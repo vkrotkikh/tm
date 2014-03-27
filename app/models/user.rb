@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
-  has_many :tasks, :through => :users_tasks
-  has_many :projects, :through => :projects_users
+
+  has_and_belongs_to_many :projects
+  has_many :tasks
+
 end
