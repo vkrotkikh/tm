@@ -1,8 +1,7 @@
-source 'https://rubygems.org'
-
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'pg'
+gem 'thread_safe', '0.3.1'
+gem 'multi_json', '1.9.2'
 gem 'rails', '4.0.2'
-
 
 
 group :development, :test do
@@ -46,6 +45,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'thread_safe', '0.2.0'
+
+gem 'rake'
 
 
 group :doc do
